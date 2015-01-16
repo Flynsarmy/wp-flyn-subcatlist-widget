@@ -31,11 +31,11 @@ January 16, 2015
 * Added custom walker option
 * Better category exclusion styling
 
-= 1.0.1 =
+= 1.1 =
 
 April 30, 2014
 
-* Tested with WP 3.9
+* Code cleanup, Tested with WP 3.9
 
 = 1.0.0 =
 
