@@ -23,13 +23,19 @@ Adds a widget that can displays subcategories of a given category (or top level)
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.2 =
 
 January 16, 2015
 
 * Added 'Hide empty categories?' option
 * Added custom walker option
 * Better category exclusion styling
+
+= 1.0.1 =
+
+April 30, 2014
+
+* Tested with WP 3.9
 
 = 1.0.0 =
 
