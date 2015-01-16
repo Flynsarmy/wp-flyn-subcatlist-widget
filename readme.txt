@@ -1,7 +1,7 @@
 === Flynsarmy Subcategory List Widget ===
 Tags: widget, category, subcategory, list
 Requires at least: 3.5.2
-Tested up to: 3.7.1
+Tested up to: 4.1
 Stable tag: trunk
 
 Adds a widget that can displays subcategories of a given category (or top level).
@@ -13,8 +13,7 @@ Adds a widget that can displays subcategories of a given category (or top level)
 == Installation ==
 
 1. Download the plugin
-1. Unzip
-1. Copy to your '/wp-content/plugins' directory
+1. Extract to '/wp-content/plugins/flyn-subcatlist-widget' directory
 1. Activate plugin
 
 == Screenshots ==
@@ -23,6 +22,14 @@ Adds a widget that can displays subcategories of a given category (or top level)
 2. Example output
 
 == Changelog ==
+
+= 1.0.1 =
+
+January 16, 2015
+
+* Added 'Hide empty categories?' option
+* Added custom walker option
+* Better category exclusion styling
 
 = 1.0.0 =
 
