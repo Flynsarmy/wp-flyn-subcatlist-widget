@@ -154,10 +154,10 @@ class FlynCW_SubcatWidget extends WP_Widget
 		);
 
 		// widget actual processes
-		parent::WP_Widget(
-			$id = $classname,
-			$name = (isset($this->widget['name'])?$this->widget['name']:$classname),
-			$options = array( 'description'=>$this->widget['description'] )
+		parent::__construct(
+			$classname,
+			isset($this->widget['name'])?$this->widget['name']:$classname,
+			array( 'description'=>$this->widget['description'] )
 		);
 	}
 
