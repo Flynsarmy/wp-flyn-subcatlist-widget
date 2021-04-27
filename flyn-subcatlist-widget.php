@@ -1,13 +1,13 @@
 <?php
 /**
  * @package Flynsarmy Subcategory List Widget
- * @version 1.2.1
+ * @version 1.2.2
  *
  * Plugin Name: Flynsarmy Subcategory List Widget
  * Description: Adds a customisable category list widget
  * Author: Flynsarmy
- * Version: 1.2
- * Author URI: http://www.flynsarmy.com
+ * Version: 1.2.2
+ * Author URI: https://www.flynsarmy.com
  */
 
 /**
@@ -19,4 +19,6 @@ defined('ABSPATH') or die("Cannot access pages directly.");
 
 require __DIR__.'/subcat-widget.php';
 
-add_action('widgets_init', create_function('', 'return register_widget("FlynCW_SubcatWidget");'));
+add_action('widgets_init', function () {
+    register_widget("FlynCW_SubcatWidget");
+});

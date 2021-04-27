@@ -1,7 +1,7 @@
 === Flynsarmy Subcategory List Widget ===
 Tags: widget, category, subcategory, list
 Requires at least: 3.5.2
-Tested up to: 4.3
+Tested up to: 5.7.1
 Stable tag: trunk
 
 Adds a widget that can displays subcategories of a given category (or top level).
@@ -22,6 +22,12 @@ Adds a widget that can displays subcategories of a given category (or top level)
 2. Example output
 
 == Changelog ==
+
+= 1.2.2 =
+
+April 27, 2021
+
+* PHP 8 compatibility fix
 
 = 1.2.1 =
 
